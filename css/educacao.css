@@ -1,0 +1,92 @@
+#educacao{
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.container-educacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .centro{
+    display: flex;
+    flex-direction: column;
+  }
+@media (min-width: 768px){
+    /* desktop */
+    #educacao{
+        display: flex;
+        align-items: center;
+    }  
+    .educacao{
+        margin-top: 50px;
+        font-size: 70px;
+    }
+    .centro{
+      width: 650px;
+      margin-top: 20px;
+    }
+  
+    .ensino-medio{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .ensino-medio > h2{
+      font-size: 25px;
+    }
+  
+    .ensino-medio > p{
+      font-size: 20px;
+    }
+  
+    .ensino-superior{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .ensino-superior > h2{
+      font-size: 25px;
+    }
+  
+    .ensino-superior > p{
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 767px){
+    /* mobile */
+    #educacao{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }  
+    .educacao{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .centro{
+      margin-top: 20px;
+      width: 350px;
+    }
+  
+    .ensino-medio{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+    }
+    .ensino-superior{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+    }
+  
+  }
+  .container-educacao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  

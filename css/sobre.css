@@ -1,0 +1,50 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 18px;
+    width: 80%;
+}
+
+.sobre h1{
+    font-weight: 1500;
+}
+
+.sobre p{
+    text-align: justify;
+    color: white;
+}
+@media (min-width: 769px){
+    .sobre h1{
+        font-size: 70px;
+        margin-top: 50px;
+    }
+    
+    .sobre p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .sobre h1{
+        font-size: 70px;
+        margin-top: 40px;
+    }
+    
+    .sobre p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px){
+    
+    .sobre h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    .sobre p{
+        font-size: 12px;
+    }
+}

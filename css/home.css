@@ -1,0 +1,50 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}
+
+.home p{
+    align-items: center;
+}
+.home p span{
+    color: black;
+    font-weight: 700;
+}
+
+@media (min-width: 769px){
+    .home img{
+        height: 575px;
+    }
+    
+    .home p{
+        font-size: 60px;
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 768px){
+    .home img{
+        height: 375px;
+    }
+    
+    .home p{
+        font-size: 30px;
+        margin-top: 90px;
+}
+}
+
+@media (max-width: 480px){
+    .home{
+        padding-top: 30px;
+    }
+    
+    .home img{
+        height: 175px;
+    }
+    
+    .home p{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,79 @@
+#contato{
+    flex-direction: column;
+}
+.centroC{
+    flex-direction: row;
+}
+@media (min-width: 768px){
+    /* desktop */
+    #contato{
+        display: flex;
+        align-items: center;
+    }  
+    .contato{
+        margin-top: 50px;
+        font-size: 70px;
+    }
+    
+    .centroC{
+      width: 650px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .email{
+      width: 100px;
+    }
+  
+    .github{
+      width: 120px;
+    }
+  
+    .linkedin{
+      width: 250px;
+    }
+  
+  }
+  
+  @media (max-width: 767px){
+    /* mobile */
+    #contato{
+        display: flex;
+        align-items: center;
+    }  
+    .contato{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+   
+    .centroC{
+      width: 350px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .email{
+      width: 50px;
+    }
+  
+    .github{
+      width: 60px;
+    }
+  
+    .linkedin{
+      width: 125px;
+    }
+  }
+  
+  .container-contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  

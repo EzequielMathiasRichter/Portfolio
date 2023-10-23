@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caprasimo', serif;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
