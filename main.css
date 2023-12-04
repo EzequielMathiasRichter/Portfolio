@@ -10,7 +10,8 @@
 }
 
 body{
-    background-color: rgb(71, 71, 71);
+    background: rgb(0,0,0);
+    background: linear-gradient(115deg, rgba(0,0,0,1) 0%, rgba(55,55,55,1) 68%, rgba(116,116,116,1) 100%);
 }
 
 html{
