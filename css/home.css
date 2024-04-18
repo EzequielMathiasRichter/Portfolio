@@ -25,6 +25,7 @@
 }
 
 @media (max-width: 768px){
+    /* desktop */
     .home img{
         height: 375px;
     }
@@ -36,6 +37,7 @@
 }
 
 @media (max-width: 480px){
+    /* mobile */
     .home{
         padding-top: 30px;
     }

@@ -1,4 +1,6 @@
+/* importando fonte do google */
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans&display=swap');
+/* configurações iniciais deestilo */
 *{
     margin: 0 auto;
     padding: 0;

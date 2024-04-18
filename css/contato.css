@@ -39,6 +39,7 @@
   
   @media (max-width: 767px){
     /* mobile */
+    
     #contato{
         display: flex;
         align-items: center;

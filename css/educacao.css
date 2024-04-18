@@ -58,6 +58,7 @@
   
   @media (max-width: 767px){
     /* mobile */
+    
     #educacao{
         display: flex;
         align-items: center;

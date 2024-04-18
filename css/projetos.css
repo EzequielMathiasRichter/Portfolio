@@ -49,6 +49,7 @@ img{
     
     @media (max-width: 767px){
     /* mobile */
+    
     #projetos{
         display: flex;
         align-items: center;

@@ -26,7 +26,7 @@
 }
 
 @media (max-width: 768px){
-    
+    /* desktop */
     .sobre h1{
         font-size: 70px;
         margin-top: 40px;
@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 480px){
-    
+    /* mobile */
     .sobre h1{
         font-size: 30px;
         margin-top: 20px;
